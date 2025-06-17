@@ -176,3 +176,5 @@ def handle_stripe_webhook(req: https_fn.Request):
             print("No UID found in session metadata.")
 
     return ("", 200)
+
+#Test the functions locally
